@@ -1,18 +1,1 @@
-{
-    "TaskName": "implicitlearn",
-    "Manufacturer": "Biosemi",
-    "PowerLineFrequency": "n/a",
-    "SamplingFrequency": 1024.0,
-    "SoftwareFilters": "n/a",
-    "RecordingDuration": 4124.9990234375,
-    "RecordingType": "continuous",
-    "EEGReference": "n/a",
-    "EEGGround": "n/a",
-    "EEGPlacementScheme": "n/a",
-    "EEGChannelCount": 72,
-    "EOGChannelCount": 0,
-    "ECGChannelCount": 0,
-    "EMGChannelCount": 0,
-    "MiscChannelCount": 0,
-    "TriggerChannelCount": 1
-}
+../../.git/annex/objects/qK/2p/SHA256E-s486--d5f9f777f7e0121621f1c1fc2ab3ab55099bb3a9ed5a4dbfff49956f532bd070.json/SHA256E-s486--d5f9f777f7e0121621f1c1fc2ab3ab55099bb3a9ed5a4dbfff49956f532bd070.json
