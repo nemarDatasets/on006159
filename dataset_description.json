@@ -1,0 +1,9 @@
+{
+    "Name": "Implicit Learning EEG (BioSemi)",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "<Your Name>",
+        "<Lab>"
+    ]
+}
