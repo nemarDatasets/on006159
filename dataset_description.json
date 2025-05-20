@@ -1,1 +1,9 @@
-.git/annex/objects/68/J8/MD5E-s198--0ae6798e802591f2b823d50d60ba10d6.json/MD5E-s198--0ae6798e802591f2b823d50d60ba10d6.json
+{
+    "Name": "Implicit Learning EEG (BioSemi)",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+       "Mateo Leganes-Fonteneau",
+       "Adapt Lab Uv Amsterdam"
+    ]
+}
