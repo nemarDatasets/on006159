@@ -1,1 +1,8 @@
-.git/annex/objects/WV/wQ/MD5E-s161--f983113e93b668f3a651e87e46f3ecf5.json/MD5E-s161--f983113e93b668f3a651e87e46f3ecf5.json
+{
+    "Name": "Implicit Learning EEG (BioSemi)",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+       "Mateo Leganes-Fonteneau"
+    ]
+}
