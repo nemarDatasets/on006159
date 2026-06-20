@@ -1,29 +1,77 @@
 {
   "version": "2.0",
-  "dataset_id": "on006159",
-  "source": "openneuro",
-  "source_id": "ds006159",
+  "pipeline_stage": "validated",
   "title": "Implicit Learning EEG (BioSemi)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Mateo Leganes-Fonteneau": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006159.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006159",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006159",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "beh",
-    "eeg"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg",
+    "beh"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".eeg",
+    ".fif",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "A raw EEG dataset collected using BioSemi equipment to investigate implicit learning processes. This dataset contains electroencephalographic recordings organized according to the Brain Imaging Data Structure (BIDS) standard, facilitating standardized analysis and sharing of neurophysiological data related to implicit learning paradigms.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "implicit learning"
+    },
+    {
+      "term": "BioSemi"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "cbaab797baa7f18726e2ec5c166923fad0bb5178377f7cd0d94d61484ba8f657"
 }
