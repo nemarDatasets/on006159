@@ -2,17 +2,32 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Implicit Learning EEG (BioSemi)",
+  "description": "This dataset comprises electroencephalography (EEG) recordings acquired using BioSemi equipment during an implicit learning task. The dataset is organized according to the Brain Imaging Data Structure (BIDS) standard and includes raw EEG data suitable for investigating neural mechanisms underlying implicit learning processes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Mateo Leganes-Fonteneau": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006159.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "implicit learning"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "BioSemi"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006159",
       "identifier_type": "URL",
@@ -32,16 +47,21 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006159.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg",
     "beh"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "37.0 GB (260 files)"
   ],
   "formats": [
     ".DS_Store",
@@ -51,27 +71,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "A raw EEG dataset collected using BioSemi equipment to investigate implicit learning processes. This dataset contains electroencephalographic recordings organized according to the Brain Imaging Data Structure (BIDS) standard, facilitating standardized analysis and sharing of neurophysiological data related to implicit learning paradigms.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "implicit learning"
-    },
-    {
-      "term": "BioSemi"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "source_hash": "cbaab797baa7f18726e2ec5c166923fad0bb5178377f7cd0d94d61484ba8f657"
+  "source_hash": "2b40bbdf99c7787b6955a770438642c878160e8bf0cecaa86b2fb7145c539d23"
 }
