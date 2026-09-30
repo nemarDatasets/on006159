@@ -1,29 +1,80 @@
 {
   "version": "2.0",
-  "dataset_id": "on006159",
-  "source": "openneuro",
-  "source_id": "ds006159",
+  "pipeline_stage": "validated",
   "title": "Implicit Learning EEG (BioSemi)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Mateo Leganes-Fonteneau": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006159.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006159",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006159",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "33.50 GB (259 files)"
+  ],
+  "formats": [
+    ".DS_Store",
+    ".eeg",
+    ".fif",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset contains EEG recordings acquired with a BioSemi system in an implicit learning paradigm. It is organized according to the EEG-BIDS specification and was prepared with MNE-BIDS. The data are shared as a raw BIDS dataset under a CC0 license.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "implicit learning"
+    },
+    {
+      "term": "BioSemi"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Learning",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007858"
+    }
+  ],
+  "source_hash": "2b40bbdf99c7787b6955a770438642c878160e8bf0cecaa86b2fb7145c539d23"
 }
